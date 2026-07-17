@@ -1,4 +1,4 @@
-# build.ps1 — Gera index.html a partir de _template.html + imagens WebP + SVG do logo.
+﻿# build.ps1 — Gera index.html a partir de _template.html + imagens WebP + SVG do logo.
 # Reexecute sempre que editar o template ou adicionar imagens.
 
 $ErrorActionPreference = "Stop"
@@ -9,16 +9,25 @@ $tmpl = [IO.File]::ReadAllText("$PSScriptRoot\_template.html")
 
 Write-Host "Convertendo WebPs para base64..." -ForegroundColor Cyan
 $capa = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\CAPA.webp"))
-$p1   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\P1.webp"))
-$p2   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\P2.webp"))
-$p3   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\P3.webp"))
-$p4   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\P4.webp"))
-$p5   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\P5.webp"))
-$p6   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\P6.webp"))
-$p7   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\P7.webp"))
-$p8   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\P8.webp"))
-$p9File = Get-ChildItem "$PSScriptRoot\webp\P9*.webp" | Select-Object -First 1
-$p9   = [Convert]::ToBase64String([IO.File]::ReadAllBytes($p9File.FullName))
+$p1   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Sacolas Papel Cartão.webp"))
+$p2   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Sacolas Kraft.webp"))
+$p3   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Sacola Boca Vazada.webp"))
+$p4   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Sacola Alça Fita.webp"))
+$p5   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Sacola Alça Cordão.webp"))
+$p6   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Sacola Alça Camiseta.webp"))
+$p7   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Papel Seda.webp"))
+$p8   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Fita de Cetim.webp"))
+$p9   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Etiquetas e Tags.webp"))
+$p10  = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Caixas Simples.webp"))
+$p11  = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\E-Commerce.webp"))
+$p12  = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Seda e Etiqueta.webp"))
+$p13  = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\Bobinas de Papel de Presente.webp"))
+$cta  = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\webp\CTA.webp"))
+
+Write-Host "Convertendo fontes para base64..." -ForegroundColor Cyan
+$fontLight   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\fonts\NiveauGrotesk-Light.otf"))
+$fontRegular = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\fonts\NiveauGrotesk-Regular.otf"))
+$fontBlack   = [Convert]::ToBase64String([IO.File]::ReadAllBytes("$PSScriptRoot\fonts\NiveauGrotesk-Black.otf"))
 
 Write-Host "Preparando SVG do logo (remove <style> interno para evitar colisao de classes)..." -ForegroundColor Cyan
 $logoRaw = [IO.File]::ReadAllText("$PSScriptRoot\LOGO HORIZONTAL - B.svg")
@@ -43,11 +52,21 @@ $out = $out.Replace('__P6_B64__',   $p6)
 $out = $out.Replace('__P7_B64__',   $p7)
 $out = $out.Replace('__P8_B64__',   $p8)
 $out = $out.Replace('__P9_B64__',   $p9)
+$out = $out.Replace('__P10_B64__',  $p10)
+$out = $out.Replace('__P11_B64__',  $p11)
+$out = $out.Replace('__P12_B64__',  $p12)
+$out = $out.Replace('__P13_B64__',  $p13)
+$out = $out.Replace('__CTA_B64__',  $cta)
 $out = $out.Replace('__LOGO_SVG__', $logoWhite)
+$out = $out.Replace('__FONT_LIGHT_B64__',   $fontLight)
+$out = $out.Replace('__FONT_REGULAR_B64__', $fontRegular)
+$out = $out.Replace('__FONT_BLACK_B64__',   $fontBlack)
 
 Write-Host "Verificando integridade..." -ForegroundColor Cyan
 $placeholders = @('__CAPA_B64__','__P1_B64__','__P2_B64__','__P3_B64__','__P4_B64__',
-                  '__P5_B64__','__P6_B64__','__P7_B64__','__P8_B64__','__P9_B64__','__LOGO_SVG__')
+                  '__P5_B64__','__P6_B64__','__P7_B64__','__P8_B64__','__P9_B64__',
+                  '__P10_B64__','__P11_B64__','__P12_B64__','__P13_B64__','__CTA_B64__','__LOGO_SVG__',
+                  '__FONT_LIGHT_B64__','__FONT_REGULAR_B64__','__FONT_BLACK_B64__')
 $pending = $placeholders | Where-Object { $out.Contains($_) }
 if ($pending) {
     Write-Host ("ERRO: placeholders nao substituidos: " + ($pending -join ', ')) -ForegroundColor Red
