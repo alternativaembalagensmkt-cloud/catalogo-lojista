@@ -338,6 +338,18 @@
   }
   .info-overlay .pill { display: none; }
 
+  /* Slide 11 (Caixas e Sacos Personalizados): titulo deslocado pra cima/direita,
+     pra sair de cima da caixa kraft que fica no lado esquerdo da foto. */
+  .slide[data-slide="11"] .info-overlay--top {
+    left: auto;
+    right: 24px;
+    top: calc(36px + var(--safe-top));
+    align-items: flex-end;
+    text-align: right;
+    padding: 0;
+    max-width: 190px;
+  }
+
   /* ============ HOTSPOTS ============ */
   .hotspot {
     position: absolute;
