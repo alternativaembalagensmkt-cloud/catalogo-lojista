@@ -19,7 +19,7 @@
     "titulo": "Sacola BCA 230 Gramas",
     "specs": [
       { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 un. por tamanho" },
-      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Até 4 cores" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Acima de 01 cor - consultar quantidade mínima" },
       { "icone": "📐", "label": "EXEMPLO", "valor": "Bloom & Brew (foto)", "full": true },
       { "icone": "📄", "label": "MATERIAL", "valor": "BCA 230g — papel bege" },
       { "icone": "🔗", "label": "ALÇA", "valor": "Cordão ou gorgurão — várias cores à escolha" },
@@ -33,7 +33,7 @@
     "titulo": "Sacola Duplex 210 Gramas",
     "specs": [
       { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 un. por tamanho" },
-      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Até 4 cores" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Acima de 01 cor - consultar quantidade mínima" },
       { "icone": "📐", "label": "EXEMPLO", "valor": "Paws & Whiskers (foto)", "full": true },
       { "icone": "📄", "label": "MATERIAL", "valor": "Duplex 210g (branco)" },
       { "icone": "🔗", "label": "ALÇA", "valor": "Cordão ou gorgurão — várias cores à escolha" },
@@ -61,7 +61,7 @@
     "titulo": "Sacola Plástica Boca Vazada",
     "specs": [
       { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 unidades por tamanho — apenas 1 cor de impressão", "full": true },
-      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Até 4 cores — a partir de quantidade mínima a consultar", "full": true },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Acima de 01 cor - consultar quantidade mínima", "full": true },
       { "icone": "📐", "label": "TAMANHOS PADRÃO", "valor": "16×20 – esp. 0,010\n20×30 – esp. 0,010\n25×38 – esp. 0,014\n33×44 – esp. 0,014\n40×50 – esp. 0,014", "full": true },
       { "icone": "📏", "label": "OUTRAS MEDIDAS E CORES", "valor": "A consultar", "full": true },
       { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
@@ -75,7 +75,7 @@
     "specs": [
       { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 unidades" },
       { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "1 cor — acima de 2 cores, somente quantidades maiores" },
-      { "icone": "📐", "label": "TAMANHOS", "valor": "50×70\n50×60\n25×70\n35×50\n25×35", "full": true },
+      { "icone": "📐", "label": "TAMANHOS", "valor": "A consultar", "full": true },
       { "icone": "📄", "label": "MATERIAL", "valor": "Plástico de baixa densidade — consultar cores disponíveis" },
       { "icone": "🔗", "label": "ALÇA", "valor": "Fita colada" },
       { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
@@ -88,8 +88,8 @@
     "titulo": "Sacola Plástica Alça Cordão",
     "specs": [
       { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 unidades por tamanho" },
-      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Personalizada com logo" },
-      { "icone": "📐", "label": "TAMANHOS", "valor": "Vários tamanhos (sob consulta)", "full": true },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "1 cor — acima de 2 cores, somente quantidades maiores" },
+      { "icone": "📐", "label": "TAMANHOS", "valor": "A consultar", "full": true },
       { "icone": "📄", "label": "MATERIAL", "valor": "Plástico de baixa densidade" },
       { "icone": "🔗", "label": "ALÇA", "valor": "Cordão — várias cores" },
       { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
@@ -103,7 +103,7 @@
     "subtitulo": "Medidas abertas",
     "specs": [
       { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 unidades — apenas 1 cor de impressão", "full": true },
-      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Até 4 cores a partir de quantidade mínima a consultar", "full": true },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Acima de 01 cor - consultar quantidade mínima", "full": true },
       { "icone": "📐", "label": "TAMANHOS", "valor": "30×40 – esp. 0,008\n40×50 – esp. 0,008\n50×60 – esp. 0,008\n60×70 – esp. 0,008\n70×80 – esp. 0,008\n90×100 – esp. 0,008", "full": true },
       { "icone": "🎨", "label": "CORES PADRÃO", "valor": "A consultar", "full": true },
       { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
@@ -129,7 +129,7 @@
     "categoria": "FITA DE CETIM",
     "titulo": "Fita de Cetim Personalizada",
     "specs": [
-      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "A consultar" },
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "A partir de 500 metros" },
       { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Logo personalizado (hot stamping)" },
       { "icone": "📐", "label": "EXEMPLO", "valor": "Luna & Lily (foto)", "full": true },
       { "icone": "📄", "label": "MATERIAL", "valor": "Cetim" },
@@ -173,6 +173,7 @@
       { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "01 cor apenas" },
       { "icone": "📐", "label": "EXEMPLO", "valor": "Mariana Amaral (foto)", "full": true },
       { "icone": "📄", "label": "MATERIAL", "valor": "Papelão simples" },
+      { "icone": "📏", "label": "MEDIDAS", "valor": "A consultar" },
       { "icone": "✨", "label": "MODELOS", "valor": "Estilo Correios · Estilo 4 abas", "full": true },
       { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
     ],
