@@ -45,6 +45,35 @@
     cursor: pointer;
   }
   main { max-width: 760px; margin: 0 auto; padding: 20px 16px 80px; }
+  .page-nav {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: var(--paper);
+    border-bottom: 1px solid var(--paper-line);
+    display: flex;
+    gap: 6px;
+    padding: 10px 16px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .page-nav button {
+    flex-shrink: 0;
+    border: 1px solid var(--paper-line);
+    background: var(--paper-soft);
+    color: var(--ink);
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .page-nav button.active {
+    background: var(--brand);
+    border-color: var(--brand);
+    color: #fff;
+  }
   #loginScreen { max-width: 480px; margin: 60px auto; padding: 0 16px; }
   #loginScreen h2 { font-size: 20px; margin-bottom: 8px; }
   #loginScreen p { color: var(--ink-soft); font-size: 14px; line-height: 1.6; }
@@ -186,6 +215,7 @@
     </div>
     <button id="logoutBtn">Sair</button>
   </header>
+  <nav id="pageNav" class="page-nav"></nav>
   <main>
     <div class="note">Mudanças levam ~1 minuto pra aparecer no catálogo publicado depois de salvar.</div>
     <div id="loadingScreen">Carregando dados do catálogo…</div>
@@ -361,6 +391,10 @@
 
   // ============ RENDERIZAR CARDS ============
   const cardsContainer = document.getElementById('cardsContainer');
+  const pageNav = document.getElementById('pageNav');
+  const LAST_PAGE_KEY = 'catalogo_admin_lastpage';
+  let PAGES = []; // [{ slideNum, ids }] ids=null pra Capa/CTA
+  let activeSlideNum = 0;
 
   function el(tag, attrs, children) {
     const e = document.createElement(tag);
@@ -373,8 +407,13 @@
     return e;
   }
 
+  function pageLabel(slideNum) {
+    if (SLIDE_TITLES_FALLBACK[slideNum]) return SLIDE_TITLES_FALLBACK[slideNum];
+    const t = slidesData.titles && slidesData.titles[String(slideNum)];
+    return t || ('Página ' + slideNum);
+  }
+
   function renderCards() {
-    cardsContainer.innerHTML = '';
     const groups = buildGroups();
     const grupoOrdem = Object.keys(groups).sort((a, b) => {
       const na = parseInt(a.replace('p', ''), 10);
@@ -382,15 +421,43 @@
       return na - nb;
     });
 
+    PAGES = [{ slideNum: 0, ids: null }];
     grupoOrdem.forEach((grupo) => {
-      const slideNum = parseInt(grupo.replace('p', ''), 10);
-      const ids = groups[grupo];
-      cardsContainer.appendChild(buildCard(slideNum, ids));
+      PAGES.push({ slideNum: parseInt(grupo.replace('p', ''), 10), ids: groups[grupo] });
     });
+    PAGES.push({ slideNum: 14, ids: null });
 
-    // Capa e CTA (só foto, sem texto estruturado)
-    cardsContainer.appendChild(buildPhotoOnlyCard(0, 'Capa'));
-    cardsContainer.appendChild(buildPhotoOnlyCard(14, 'CTA Final'));
+    const saved = parseInt(localStorage.getItem(LAST_PAGE_KEY), 10);
+    activeSlideNum = PAGES.some((pg) => pg.slideNum === saved) ? saved : 0;
+
+    renderNav();
+    renderActivePage();
+  }
+
+  function renderNav() {
+    pageNav.innerHTML = '';
+    PAGES.forEach((pg) => {
+      const btn = el('button', { text: pageLabel(pg.slideNum) });
+      if (pg.slideNum === activeSlideNum) btn.classList.add('active');
+      btn.addEventListener('click', () => {
+        activeSlideNum = pg.slideNum;
+        localStorage.setItem(LAST_PAGE_KEY, String(activeSlideNum));
+        renderNav();
+        renderActivePage();
+      });
+      pageNav.appendChild(btn);
+    });
+  }
+
+  function renderActivePage() {
+    cardsContainer.innerHTML = '';
+    const pg = PAGES.find((p) => p.slideNum === activeSlideNum);
+    if (!pg) return;
+    if (pg.ids) {
+      cardsContainer.appendChild(buildCard(pg.slideNum, pg.ids));
+    } else {
+      cardsContainer.appendChild(buildPhotoOnlyCard(pg.slideNum, pageLabel(pg.slideNum)));
+    }
   }
 
   function buildPhotoOnlyCard(slideNum, label) {
