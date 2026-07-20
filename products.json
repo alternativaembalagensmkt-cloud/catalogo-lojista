@@ -129,45 +129,45 @@
     "grupo": "p2",
     "ordem": 0,
     "navLabel": "Visão geral",
-    "categoria": "SACOLAS KRAFT!",
-    "titulo": "Sacolas Kraft 100/120 Gramas!",
+    "categoria": "SACOLAS KRAFT",
+    "titulo": "Sacolas Kraft 100/120 Gramas",
     "specs": [
       {
         "icone": "📦",
         "label": "QTD. MÍNIMA",
-        "valor": "1.000 unidades por tamanho — apenas 1 cor de impressão!",
+        "valor": "1.000 unidades por tamanho — apenas 1 cor de impressão",
         "full": true
       },
       {
         "icone": "🖌️",
         "label": "IMPRESSÃO",
-        "valor": "Acima de 01 cor - consultar quantidade mínima!",
+        "valor": "Acima de 01 cor - consultar quantidade mínima",
         "full": true
       },
       {
         "icone": "📐",
         "label": "TAMANHOS",
-        "valor": "18×25×10!\n18×32×10\n22×35×10,5\n26×35×11,5\n30×42×13",
+        "valor": "18×25×10\n18×32×10\n22×35×10,5\n26×35×11,5\n30×42×13",
         "side": "left"
       },
       {
         "icone": "📄",
         "label": "MATERIAL",
-        "valor": "Kraft 100/120g!",
+        "valor": "Kraft 100/120g",
         "side": "left"
       },
       {
         "icone": "🔗",
         "label": "ALÇA",
-        "valor": "Cordão ou gorgurão — várias cores à escolha!"
+        "valor": "Cordão ou gorgurão — várias cores à escolha"
       },
       {
         "icone": "🚚",
         "label": "PRAZO",
-        "valor": "A consultar!"
+        "valor": "A consultar"
       }
     ],
-    "dica": "💡 Opção econômica sem abrir mão da personalização. Perfeita para uso no dia a dia da loja.!"
+    "dica": "💡 Opção econômica sem abrir mão da personalização. Perfeita para uso no dia a dia da loja."
   },
   "p3-main": {
     "grupo": "p3",
