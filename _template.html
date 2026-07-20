@@ -286,6 +286,13 @@
   .img-veil--strong {
     background: linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.1) 25%, rgba(0,0,0,0.25) 45%, rgba(0,0,0,0.82) 100%) !important;
   }
+  /* Paginas com titulo em cima (.info-overlay--top) nao precisam escurecer a base da foto */
+  .img-veil--top-only {
+    background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 28%, rgba(0,0,0,0) 100%) !important;
+  }
+  .img-veil--top-only.img-veil--light {
+    background: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 100%) !important;
+  }
   .slide.product .info-overlay {
     position: absolute;
     left: 0; right: 0;
@@ -739,7 +746,7 @@
     <!-- ========= SLIDE 1: SACOLAS DE PAPEL CARTÃO ========= -->
     <section class="slide product" data-slide="1">
       <img class="bg-photo" src="data:image/webp;base64,__P1_B64__" alt="Sacolas de Papel Cartão Personalizadas">
-      <div class="img-veil img-veil--light"></div>
+      <div class="img-veil img-veil--light img-veil--top-only"></div>
 
       <div class="tag" style="left:68%; top:21.5%;">
         <svg class="tag-arrow tag-arrow--down-left" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M34 30C24 30 12 24 8 10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M8 10 L14 12 M8 10 L11 16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
@@ -769,7 +776,7 @@
     <!-- ========= SLIDE 2: SACOLAS KRAFT ========= -->
     <section class="slide product" data-slide="2">
       <img class="bg-photo" src="data:image/webp;base64,__P2_B64__" alt="Sacolas Kraft Personalizadas">
-      <div class="img-veil"></div>
+      <div class="img-veil img-veil--top-only"></div>
 
       <div class="info-overlay info-overlay--top">
         <span class="step">2 DE 13</span>
@@ -786,7 +793,7 @@
     <!-- ========= SLIDE 3: SACOLA PLÁSTICA BOCA VAZADA ========= -->
     <section class="slide product" data-slide="3">
       <img class="bg-photo" src="data:image/webp;base64,__P3_B64__" alt="Sacola Plástica Boca Vazada">
-      <div class="img-veil"></div>
+      <div class="img-veil img-veil--top-only"></div>
 
       <div class="info-overlay info-overlay--top">
         <span class="step">3 DE 13</span>
@@ -803,7 +810,7 @@
     <!-- ========= SLIDE 4: SACOLA ALÇA FITA ========= -->
     <section class="slide product" data-slide="4">
       <img class="bg-photo" src="data:image/webp;base64,__P4_B64__" alt="Sacola Plástica Alça Fita">
-      <div class="img-veil"></div>
+      <div class="img-veil img-veil--top-only"></div>
 
       <div class="info-overlay info-overlay--top">
         <span class="step">4 DE 13</span>
@@ -871,7 +878,7 @@
     <!-- ========= SLIDE 8: FITAS DE CETIM ========= -->
     <section class="slide product" data-slide="8">
       <img class="bg-photo" src="data:image/webp;base64,__P8_B64__" alt="Fitas de Cetim Personalizadas">
-      <div class="img-veil img-veil--light"></div>
+      <div class="img-veil img-veil--light img-veil--top-only"></div>
 
       <div class="info-overlay info-overlay--top info-overlay--brand">
         <span class="step">8 DE 13</span>
@@ -888,7 +895,7 @@
     <!-- ========= SLIDE 9: ETIQUETAS E TAGS ========= -->
     <section class="slide product" data-slide="9">
       <img class="bg-photo" src="data:image/webp;base64,__P9_B64__" alt="Etiquetas e Tags Personalizadas">
-      <div class="img-veil"></div>
+      <div class="img-veil img-veil--top-only"></div>
 
       <div class="tag" style="left:50%; top:26%;">
         <svg class="tag-arrow tag-arrow--down-left tag-arrow--white" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M34 30C24 30 12 24 8 10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M8 10 L14 12 M8 10 L11 16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
@@ -931,7 +938,7 @@
     <!-- ========= SLIDE 11: CAIXAS E SACOS PERSONALIZADOS — E-COMMERCE ========= -->
     <section class="slide product" data-slide="11">
       <img class="bg-photo" src="data:image/webp;base64,__P11_B64__" alt="Caixas e Sacos Personalizados para E-Commerce">
-      <div class="img-veil img-veil--light"></div>
+      <div class="img-veil img-veil--light img-veil--top-only"></div>
 
       <div class="tag" style="left:76%; top:41%;">
         <span style="display:flex; flex-direction:column; gap:2px; align-items:center;">
@@ -986,7 +993,7 @@
     <!-- ========= SLIDE 13: BOBINAS DE PAPEL DE PRESENTE ========= -->
     <section class="slide product" data-slide="13">
       <img class="bg-photo" src="data:image/webp;base64,__P13_B64__" alt="Bobinas de Papel de Presente">
-      <div class="img-veil"></div>
+      <div class="img-veil img-veil--top-only"></div>
 
       <div class="info-overlay info-overlay--top">
         <span class="step">13 DE 13</span>
