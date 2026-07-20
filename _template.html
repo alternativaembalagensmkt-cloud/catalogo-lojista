@@ -323,6 +323,11 @@
     margin-top: 2px;
   }
   /* Títulos sempre em branco — a base da foto já tem fade escuro (.img-veil) */
+  /* Exceção: páginas marcadas com --brand usam a cor da marca */
+  .info-overlay--brand h2 {
+    color: var(--brand);
+    text-shadow: 0 1px 4px rgba(255,255,255,0.5);
+  }
   .info-overlay .desc {
     font-size: 14px;
     line-height: 1.45;
@@ -737,7 +742,7 @@
         <button class="tag-pill" data-product="p1-c" aria-label="Ver Duplex 210 Gramas">Duplex 210 Gramas</button>
       </div>
 
-      <div class="info-overlay info-overlay--top">
+      <div class="info-overlay info-overlay--top info-overlay--brand">
         <span class="step">1 DE 13</span>
         <h2>Sacolas de Papel Cartão</h2>
       </div>
@@ -856,7 +861,7 @@
       <img class="bg-photo" src="data:image/webp;base64,__P8_B64__" alt="Fitas de Cetim Personalizadas">
       <div class="img-veil img-veil--light"></div>
 
-      <div class="info-overlay info-overlay--top">
+      <div class="info-overlay info-overlay--top info-overlay--brand">
         <span class="step">8 DE 13</span>
         <h2>Fitas de Cetim</h2>
       </div>
@@ -928,7 +933,7 @@
         <button class="tag-pill" data-product="p11-c" aria-label="Ver Envelope de Segurança">Envelope de Segurança</button>
       </div>
 
-      <div class="info-overlay info-overlay--top">
+      <div class="info-overlay info-overlay--top info-overlay--brand">
         <span class="step">11 DE 13</span>
         <h2>Caixas e Sacos Personalizados</h2>
       </div>
