@@ -1,0 +1,28 @@
+{
+  "titles": {
+    "1": "Sacolas de Papel Cartão",
+    "2": "Sacolas Kraft",
+    "3": "Sacola Plástica Boca Vazada",
+    "4": "Sacola Alça Fita",
+    "5": "Sacola Alça Cordão",
+    "6": "Sacola Alça Camiseta",
+    "7": "Papel de Seda",
+    "8": "Fitas de Cetim",
+    "9": "Etiquetas e Tags",
+    "10": "Caixas de Papelão Simples",
+    "11": "Caixas e Sacos Personalizados",
+    "12": "A Pronta Entrega",
+    "13": "Bobinas de Papel de Presente"
+  },
+  "pills": {
+    "p1-a": "Kraft 200 Gramas",
+    "p1-b": "BCA 230 Gramas",
+    "p1-c": "Duplex 210 Gramas",
+    "p9-b": "Etiqueta Adesiva",
+    "p9-a": "Tags",
+    "p11-a": "Caixa E-commerce",
+    "p11-c": "Envelope de Segurança",
+    "p12-b": "Etiqueta Adesiva",
+    "p12-a": "Papel de Seda"
+  }
+}

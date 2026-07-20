@@ -1,0 +1,230 @@
+{
+  "p1-a": {
+    "grupo": "p1", "ordem": 1, "navLabel": "Kraft 200g",
+    "categoria": "SACOLA DE PAPEL CARTÃO · KRAFT",
+    "titulo": "Sacola Kraft 200 Gramas",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 un. por tamanho" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Ideal até 2 cores" },
+      { "icone": "📐", "label": "EXEMPLO", "valor": "Aura Parfum (foto)", "full": true },
+      { "icone": "📄", "label": "MATERIAL", "valor": "Kraft 200g — pardo natural" },
+      { "icone": "🔗", "label": "ALÇA", "valor": "Cordão ou gorgurão — várias cores à escolha" },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": "💡 Visual artesanal e sustentável — marcas minimalistas, eco e naturais."
+  },
+  "p1-b": {
+    "grupo": "p1", "ordem": 2, "navLabel": "BCA 230g",
+    "categoria": "SACOLA DE PAPEL CARTÃO · BCA",
+    "titulo": "Sacola BCA 230 Gramas",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 un. por tamanho" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Até 4 cores" },
+      { "icone": "📐", "label": "EXEMPLO", "valor": "Bloom & Brew (foto)", "full": true },
+      { "icone": "📄", "label": "MATERIAL", "valor": "BCA 230g — papel bege" },
+      { "icone": "🔗", "label": "ALÇA", "valor": "Cordão ou gorgurão — várias cores à escolha" },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": "💡 Acabamento creme off-white premium — ótimo para marcas de café, botânica e lifestyle."
+  },
+  "p1-c": {
+    "grupo": "p1", "ordem": 3, "navLabel": "Duplex 210g",
+    "categoria": "SACOLA DE PAPEL CARTÃO · DUPLEX",
+    "titulo": "Sacola Duplex 210 Gramas",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 un. por tamanho" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Até 4 cores" },
+      { "icone": "📐", "label": "EXEMPLO", "valor": "Paws & Whiskers (foto)", "full": true },
+      { "icone": "📄", "label": "MATERIAL", "valor": "Duplex 210g (branco)" },
+      { "icone": "🔗", "label": "ALÇA", "valor": "Cordão ou gorgurão — várias cores à escolha" },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": "💡 Fundo branco garante impressão vibrante — pet shops, infantil, beauty e muito mais."
+  },
+  "p2-main": {
+    "grupo": "p2", "ordem": 0, "navLabel": "Visão geral",
+    "categoria": "SACOLAS KRAFT",
+    "titulo": "Sacolas Kraft 100/120 Gramas",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 unidades por tamanho", "full": true },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "1 cor de impressão", "full": true },
+      { "icone": "📐", "label": "TAMANHOS", "valor": "18×25×10\n18×32×10\n22×35×10,5\n26×35×11,5\n30×42×13", "side": "left" },
+      { "icone": "📄", "label": "MATERIAL", "valor": "Kraft 100/120g", "side": "left" },
+      { "icone": "🔗", "label": "ALÇA", "valor": "Cordão ou gorgurão — várias cores à escolha" },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar" }
+    ],
+    "dica": "💡 Opção econômica sem abrir mão da personalização. Perfeita para uso no dia a dia da loja."
+  },
+  "p3-main": {
+    "grupo": "p3", "ordem": 0, "navLabel": "Visão geral",
+    "categoria": "SACOLA PLÁSTICA · BOCA VAZADA",
+    "titulo": "Sacola Plástica Boca Vazada",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 unidades por tamanho — apenas 1 cor de impressão", "full": true },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Até 4 cores — a partir de quantidade mínima a consultar", "full": true },
+      { "icone": "📐", "label": "TAMANHOS PADRÃO", "valor": "16×20 – esp. 0,010\n20×30 – esp. 0,010\n25×38 – esp. 0,014\n33×44 – esp. 0,014\n40×50 – esp. 0,014", "full": true },
+      { "icone": "📏", "label": "OUTRAS MEDIDAS E CORES", "valor": "A consultar", "full": true },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": ""
+  },
+  "p4-main": {
+    "grupo": "p4", "ordem": 0, "navLabel": "Visão geral",
+    "categoria": "SACOLA ALÇA FITA",
+    "titulo": "Sacola Alça Fita",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 unidades" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "1 cor — acima de 2 cores, somente quantidades maiores" },
+      { "icone": "📐", "label": "TAMANHOS", "valor": "50×70\n50×60\n25×70\n35×50\n25×35", "full": true },
+      { "icone": "📄", "label": "MATERIAL", "valor": "Plástico de baixa densidade — consultar cores disponíveis" },
+      { "icone": "🔗", "label": "ALÇA", "valor": "Fita colada" },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": "💡 Transparência que valoriza o produto dentro. Muito usada em moda, calçados e presentes."
+  },
+  "p5-main": {
+    "grupo": "p5", "ordem": 0, "navLabel": "Visão geral",
+    "categoria": "SACOLA ALÇA CORDÃO",
+    "titulo": "Sacola Plástica Alça Cordão",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 unidades por tamanho" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Personalizada com logo" },
+      { "icone": "📐", "label": "TAMANHOS", "valor": "Vários tamanhos (sob consulta)", "full": true },
+      { "icone": "📄", "label": "MATERIAL", "valor": "Plástico de baixa densidade" },
+      { "icone": "🔗", "label": "ALÇA", "valor": "Cordão — várias cores" },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": "💡 Alça de cordão em várias cores — acabamento que valoriza moda, joias e produtos de alto padrão."
+  },
+  "p6-main": {
+    "grupo": "p6", "ordem": 0, "navLabel": "Visão geral",
+    "categoria": "SACOLA PLÁSTICA · ALÇA CAMISETA",
+    "titulo": "Sacola Plástica Alça Camiseta",
+    "subtitulo": "Medidas abertas",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 unidades — apenas 1 cor de impressão", "full": true },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Até 4 cores a partir de quantidade mínima a consultar", "full": true },
+      { "icone": "📐", "label": "TAMANHOS", "valor": "30×40 – esp. 0,008\n40×50 – esp. 0,008\n50×60 – esp. 0,008\n60×70 – esp. 0,008\n70×80 – esp. 0,008\n90×100 – esp. 0,008", "full": true },
+      { "icone": "🎨", "label": "CORES PADRÃO", "valor": "A consultar", "full": true },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": ""
+  },
+  "p7-main": {
+    "grupo": "p7", "ordem": 0, "navLabel": "Visão geral",
+    "categoria": "PAPEL DE SEDA",
+    "titulo": "Papel de Seda Personalizado",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "40 kg" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Personalizado — 1 cor (escolha a cor)" },
+      { "icone": "📐", "label": "EXEMPLO", "valor": "Sofisticatto (foto)", "full": true },
+      { "icone": "📏", "label": "TAMANHOS", "valor": "50×70\n50×60\n25×70\n35×50\n25×35", "full": true },
+      { "icone": "📄", "label": "MATERIAL", "valor": "Seda branca — fina e translúcida" },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar" }
+    ],
+    "dica": "💡 Envolva o produto e surpreenda na abertura. Funciona em sacolas e caixas."
+  },
+  "p8-main": {
+    "grupo": "p8", "ordem": 0, "navLabel": "Visão geral",
+    "categoria": "FITA DE CETIM",
+    "titulo": "Fita de Cetim Personalizada",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "A consultar" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Logo personalizado (hot stamping)" },
+      { "icone": "📐", "label": "EXEMPLO", "valor": "Luna & Lily (foto)", "full": true },
+      { "icone": "📄", "label": "MATERIAL", "valor": "Cetim" },
+      { "icone": "🎨", "label": "CORES", "valor": "Várias cores disponíveis" },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar" }
+    ],
+    "dica": "💡 Acabamento premium — eleva qualquer embalagem a um nível de presente."
+  },
+  "p9-a": {
+    "grupo": "p9", "ordem": 1, "navLabel": "Tags",
+    "categoria": "ETIQUETAS E TAGS · TAG",
+    "titulo": "Tag Personalizada",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "A partir de 5.000 unidades" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Até 4 cores — frente e verso" },
+      { "icone": "📐", "label": "EXEMPLO", "valor": "Marluah, Buá Buá Baby (foto)", "full": true },
+      { "icone": "📏", "label": "TAMANHOS", "valor": "Vários tamanhos e formatos", "full": true },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": "💡 Impressão nos dois lados valoriza ainda mais a apresentação da peça."
+  },
+  "p9-b": {
+    "grupo": "p9", "ordem": 2, "navLabel": "Etiqueta Adesiva",
+    "categoria": "ETIQUETAS E TAGS · ADESIVA",
+    "titulo": "Etiqueta Adesiva Personalizada",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "A partir de 5.000 unidades" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Até 4 cores — somente frente" },
+      { "icone": "📐", "label": "EXEMPLO", "valor": "Terra (foto)", "full": true },
+      { "icone": "📏", "label": "TAMANHOS", "valor": "Vários tamanhos e formatos", "full": true },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": ""
+  },
+  "p10-main": {
+    "grupo": "p10", "ordem": 0, "navLabel": "Visão geral",
+    "categoria": "CAIXA DE PAPELÃO SIMPLES",
+    "titulo": "Caixa de Papelão Simples",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "500 unidades por tamanho" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "01 cor apenas" },
+      { "icone": "📐", "label": "EXEMPLO", "valor": "Mariana Amaral (foto)", "full": true },
+      { "icone": "📄", "label": "MATERIAL", "valor": "Papelão simples" },
+      { "icone": "✨", "label": "MODELOS", "valor": "Estilo Correios · Estilo 4 abas", "full": true },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": "💡 Caixa resistente e elegante — ideal para e-commerce em geral."
+  },
+  "p11-a": {
+    "grupo": "p11", "ordem": 1, "navLabel": "Caixa E-commerce",
+    "categoria": "CAIXA E-COMMERCE · PERSONALIZADA",
+    "titulo": "Caixa E-Commerce Personalizada",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 unidades por tamanho" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "Até 4 cores" },
+      { "icone": "📐", "label": "EXEMPLO", "valor": "Lumière Paris (foto)", "full": true },
+      { "icone": "📄", "label": "MATERIAL", "valor": "Microondulado acoplado com Duplex, BCA ou Kraft" },
+      { "icone": "✨", "label": "MODELO", "valor": "Estilo Correios", "full": true },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": "💡 Caixa para e-commerce — impressão personalizada por dentro OU por fora (a combinar)."
+  },
+  "p11-c": {
+    "grupo": "p11", "ordem": 3, "navLabel": "Envelope Segurança",
+    "categoria": "ENVELOPE DE SEGURANÇA",
+    "titulo": "Envelope de Segurança Personalizado",
+    "specs": [
+      { "icone": "📦", "label": "QTD. MÍNIMA", "valor": "1.000 unidades por tamanho" },
+      { "icone": "🖌️", "label": "IMPRESSÃO", "valor": "1 cor" },
+      { "icone": "📐", "label": "EXEMPLO", "valor": "Vita Boost (foto)", "full": true },
+      { "icone": "📏", "label": "TAMANHOS", "valor": "15×30\n20×30\n26×39\n35×43\n41×50", "full": true },
+      { "icone": "📄", "label": "MATERIAL", "valor": "Plástico de baixa densidade — esp. 0,012, com lacre de segurança adesivo" },
+      { "icone": "🚚", "label": "PRAZO", "valor": "A consultar", "full": true }
+    ],
+    "dica": "💡 Ideal para e-commerce de roupas, suplementos e produtos que não precisam de caixa rígida."
+  },
+  "p12-a": {
+    "grupo": "p12", "ordem": 1, "navLabel": "Papel de Seda",
+    "categoria": "PRONTA ENTREGA · PAPEL DE SEDA",
+    "titulo": "Papel de Seda — Estampa Coração",
+    "textoSimples": "Papel de seda estampado com coração ❤️. Pronta entrega — envio em até 5 dias úteis.",
+    "dica": ""
+  },
+  "p12-b": {
+    "grupo": "p12", "ordem": 2, "navLabel": "Etiqueta Adesiva",
+    "categoria": "PRONTA ENTREGA · ETIQUETA ADESIVA",
+    "titulo": "Etiqueta Adesiva — Estampa Coração",
+    "textoSimples": "Etiqueta adesiva estampada com coração ❤️. Pronta entrega — envio em até 5 dias úteis.",
+    "dica": "💡 Etiqueta transparente, com coração em hot stamp."
+  },
+  "p13-main": {
+    "grupo": "p13", "ordem": 0, "navLabel": "Visão geral",
+    "categoria": "PRONTA ENTREGA · EMBRULHO",
+    "titulo": "Bobinas de Embrulho para Presentes",
+    "textoSimples": "Observações: entregas em até 5 dias. + de 50 estampas disponíveis, solicite as disponíveis.",
+    "dica": ""
+  }
+}
