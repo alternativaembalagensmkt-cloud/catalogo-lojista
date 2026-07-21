@@ -9,12 +9,12 @@
       {
         "icone": "📦",
         "label": "QTD. MÍNIMA",
-        "valor": "1.000 un. por tamanho — apenas 1 cor de impressão"
+        "valor": "1.000 un. por tamanho"
       },
       {
         "icone": "🖌️",
         "label": "IMPRESSÃO",
-        "valor": "Acima de 01 cor - consultar quantidade mínima"
+        "valor": "Até 4 cores"
       },
       {
         "icone": "📐",
@@ -51,12 +51,12 @@
       {
         "icone": "📦",
         "label": "QTD. MÍNIMA",
-        "valor": "1.000 un. por tamanho — apenas 1 cor de impressão"
+        "valor": "1.000 un. por tamanho"
       },
       {
         "icone": "🖌️",
         "label": "IMPRESSÃO",
-        "valor": "Acima de 01 cor - consultar quantidade mínima"
+        "valor": "Até 4 cores"
       },
       {
         "icone": "📐",
@@ -93,12 +93,12 @@
       {
         "icone": "📦",
         "label": "QTD. MÍNIMA",
-        "valor": "1.000 un. por tamanho — apenas 1 cor de impressão"
+        "valor": "1.000 un. por tamanho"
       },
       {
         "icone": "🖌️",
         "label": "IMPRESSÃO",
-        "valor": "Acima de 01 cor - consultar quantidade mínima"
+        "valor": "Até 4 cores"
       },
       {
         "icone": "📐",
@@ -615,7 +615,7 @@
     "navLabel": "Papel de Seda",
     "categoria": "PRONTA ENTREGA · PAPEL DE SEDA",
     "titulo": "Papel de Seda — Estampa Coração",
-    "textoSimples": "Papel de seda estampado com coração ❤️. Pronta entrega — envio em até 5 dias úteis.",
+    "textoSimples": "Papel de seda estampado com coração ❤️.",
     "dica": ""
   },
   "p12-b": {
@@ -624,7 +624,7 @@
     "navLabel": "Etiqueta Adesiva",
     "categoria": "PRONTA ENTREGA · ETIQUETA ADESIVA",
     "titulo": "Etiqueta Adesiva — Estampa Coração",
-    "textoSimples": "Etiqueta adesiva estampada com coração ❤️. Pronta entrega — envio em até 5 dias úteis.",
+    "textoSimples": "Etiqueta adesiva estampada com coração ❤️.",
     "dica": "💡 Etiqueta transparente, com coração em hot stamp."
   },
   "p13-main": {
@@ -633,7 +633,7 @@
     "navLabel": "Visão geral",
     "categoria": "PRONTA ENTREGA · EMBRULHO",
     "titulo": "Bobinas de Embrulho para Presentes",
-    "textoSimples": "Observações: entregas em até 5 dias. + de 50 estampas disponíveis, solicite as disponíveis.",
+    "textoSimples": "+ de 50 estampas disponíveis, solicite as disponíveis.",
     "dica": ""
   }
 }
