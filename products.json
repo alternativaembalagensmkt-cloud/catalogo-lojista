@@ -9,12 +9,12 @@
       {
         "icone": "📦",
         "label": "QTD. MÍNIMA",
-        "valor": "1.000 un. por tamanho — apenas 1 cor de impressão"
+        "valor": "1.000 un. por tamanho"
       },
       {
         "icone": "🖌️",
         "label": "IMPRESSÃO",
-        "valor": "Acima de 01 cor - consultar quantidade mínima"
+        "valor": "Até 4 cores"
       },
       {
         "icone": "📐",
@@ -51,12 +51,12 @@
       {
         "icone": "📦",
         "label": "QTD. MÍNIMA",
-        "valor": "1.000 un. por tamanho — apenas 1 cor de impressão"
+        "valor": "1.000 un. por tamanho"
       },
       {
         "icone": "🖌️",
         "label": "IMPRESSÃO",
-        "valor": "Acima de 01 cor - consultar quantidade mínima"
+        "valor": "Até 4 cores"
       },
       {
         "icone": "📐",
@@ -93,12 +93,12 @@
       {
         "icone": "📦",
         "label": "QTD. MÍNIMA",
-        "valor": "1.000 un. por tamanho — apenas 1 cor de impressão"
+        "valor": "1.000 un. por tamanho"
       },
       {
         "icone": "🖌️",
         "label": "IMPRESSÃO",
-        "valor": "Acima de 01 cor - consultar quantidade mínima"
+        "valor": "Até 4 cores"
       },
       {
         "icone": "📐",
